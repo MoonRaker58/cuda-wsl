@@ -154,3 +154,14 @@ AVX = 1 | AVX_VNNI = 0 | AVX2 = 1 | AVX512 = 0 | AVX512_VBMI = 0 | AVX512_VNNI =
 18:50:50.097 [INFO    ] private_gpt.components.embedding.embedding_component - Initializing the embedding model in mode=local 
 ℹ️ Go to 127.0.0.1:8001 in your browser
 ```
+
+## Conclusion
+By following these steps, you have successfully installed PrivateGPT on WSL with GPU support. Enjoy the enhanced capabilities of PrivateGPT for your natural language processing tasks.
+
+If something went wrong then open your window and throw your computer away. Then start again at step 1.
+
+You can also remove the WSL with:
+```powershell
+wsl.exe --list -v
+wsl --unregister <name of the wsl to  remove>
+```
