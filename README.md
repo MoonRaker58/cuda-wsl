@@ -120,10 +120,13 @@ nvidia-smi.exe
 ```
 > ℹ️ “nvidia-smi” isn’t available on WSL so just verify that the .exe one detects your hardware. Both commands should displayed gibberish but no apparent errors.
 
-Building and Running PrivateGPT
+## Building and Running PrivateGPT
+
 Finally, install LLAMA CUDA libraries and Python bindings:
+
 ```bash
 CMAKE_ARGS='-DLLAMA_CUBLAS=on' poetry run pip install --force-reinstall --no-cache-dir llama-cpp-python
+```
 
 Let private GPT download a local LLM for you (mixtral by default):
 ```bash
