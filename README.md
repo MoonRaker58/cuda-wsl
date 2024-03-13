@@ -58,24 +58,30 @@ cd privateGPT
 poetry install --with ui
 poetry install --with local
 
-Nvidia Drivers
-Download Installer for Linux WSL-Ubuntu 2.0 x86_64
-The base installer is available for download below.
 
-Base Installer
-Installation Instructions:
-```bash
-wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-keyring_1.1-1_all.deb
-sudo dpkg -i cuda-keyring_1.1-1_all.deb
-sudo apt-get update
-sudo apt-get -y install cuda-toolkit-12-4
-```
-Additional installation options are detailed here.
-
-Nvidia Drivers Installation
+## Nvidia Drivers Installation
 Visit Nvidia’s official website to download and install the Nvidia drivers for WSL. Choose Linu > x86_64 > WSL-Ubuntu > 2.0 > deb (network)
 
 Follow the instructions provided on the page.
+> ## Nvidia Drivers
+> 
+> Download Installer for Linux WSL-Ubuntu 2.0 x86_64
+>
+> The base installer is available for download below.
+>
+> Base Installer
+> Installation Instructions:
+>
+> ```bash
+> wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-keyring_1.1-1_all.deb
+> sudo dpkg -i cuda-keyring_1.1-1_all.deb
+> sudo apt-get update
+> sudo apt-get -y install cuda-toolkit-12-4
+> ```
+> 
+> Additional installation options are detailed here.
+
+
 
 Add the following lines to your .bashrc:
 
