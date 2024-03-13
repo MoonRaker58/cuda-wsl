@@ -1,7 +1,6 @@
 # cuda-wsl
 
-NetworkChuck https://youtu.be/WxYC9-hBM_g?si=x86iT3R0ycO7IHjD lead me to this
-https://medium.com/@docteur_rs/installing-privategpt-on-wsl-with-gpu-support-5798d763aa31
+NetworkChuck's video of [Run your own AI (but private)](https://youtu.be/WxYC9-hBM_g?si=x86iT3R0ycO7IHjD) lead me to [Installing PrivateGPT on WSL with GPU support](https://medium.com/@docteur_rs/installing-privategpt-on-wsl-with-gpu-support-5798d763aa31) by Emilien Lancelot on Medium
 
 ## Prerequisites
 Before we begin, make sure you have the latest version of Ubuntu WSL installed. You can choose from versions such as Ubuntu-22–04–3 LTS or Ubuntu-22–04–6 LTS available on the Windows Store.
